@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_elevation">6dp</dimen>
+    <dimen name="card_corner_radius">6dp</dimen>
+    <dimen name="card_margin">20dp</dimen>
+    <dimen name="car_image_height">60dp</dimen>
+    <dimen name="car_image_width">60dp</dimen>
+
+    <dimen name="card_text_margin">10dp</dimen>
+
+    <dimen name="text_size_medium">12sp</dimen>
+    <dimen name="text_size_small">10sp</dimen>
+    <dimen name="text_size_large">14sp</dimen>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Payment page</string>
+    <string name="stripe_name">Stripe</string>
+    <string name="stripe_description">Pay us with stripe</string>
+    <string name="gpay_name">Google Pay</string>
+    <string name="gpay_description">Pay us with google pay (needs google pay installed in phone)</string>
+</resources>

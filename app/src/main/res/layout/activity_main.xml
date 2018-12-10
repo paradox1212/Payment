@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <com.stripe.android.view.CardInputWidget
+        android:id="@+id/card_input_widget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/card_details_submit"
+        android:text="submit"
+        android:visibility="gone"
+        android:layout_gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/amount"
+        android:hint="Enter the amount"
+        android:visibility="gone"
+        android:inputType="number"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/charge_user"
+        android:layout_gravity="center"
+        android:text="charge user"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/google_pay_button"
+        android:layout_gravity="center"
+        android:text="use google pay"/>
+
+    <include
+        layout="@layout/singlecard"
+        android:id="@+id/stripe_integ">
+    </include>
+    <include
+        layout="@layout/singlecard"
+        android:id="@+id/stripe_integ">
+    </include>
+
+
+</LinearLayout>
